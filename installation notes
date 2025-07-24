@@ -117,3 +117,19 @@ opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but y
 Successfully installed numpy-1.26.4
 (spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ watch -n 1  nvidia-smi
 (spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$
+
+
+
+
+--experiment_name
+wlasl100
+--epochs
+350
+--lr
+0.001
+--training_set_path
+./data/WLASL100_train_25fps.csv
+--validation_set_path
+./data/WLASL100_val_25fps.csv
+--testing_set_path
+./data/WLASL100_test_25fps.csv
