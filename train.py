@@ -26,7 +26,7 @@ def get_default_args():
 
     parser.add_argument("--experiment_name", type=str, default="lsa_64_spoter",
                         help="Name of the experiment after which the logs and plots will be named")
-    parser.add_argument("--num_classes", type=int, default=64, help="Number of classes to be recognized by the model")
+    parser.add_argument("--num_classes", type=int, default=100, help="Number of classes to be recognized by the model")
     parser.add_argument("--hidden_dim", type=int, default=108,
                         help="Hidden dimension of the underlying Transformer model")
     parser.add_argument("--seed", type=int, default=379,
@@ -171,6 +171,7 @@ def train(args):
         logging.info("Starting " + args.experiment_name + "...\n\n")
 
     for epoch in range(args.epochs):
+        print("Epoch: ", epoch)
         train_loss, _, _, train_acc = train_epoch(slrt_model, train_loader, cel_criterion, sgd_optimizer, device)
         losses.append(train_loss.item() / len(train_loader))
         train_accs.append(train_acc)

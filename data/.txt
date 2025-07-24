@@ -1,0 +1,13 @@
+"indexPIP_left_X",
+"leftElbow_Y",
+"ringPIP_left_Y",
+"thumbMP_left_X",
+"ringDIP_right_X",
+"leftEye_Y",
+"indexPIP_right_Y",
+"littleMCP_right_X",
+"middleDIP_left_X",
+"ringPIP_left_X",
+"littleMCP_right_Y",
+"ringTip_left_X",
+"rightEye_X","video_size_height","wrist_right_Y","thumbMP_right_Y","littleTip_right_Y","thumbTip_left_X","middleMCP_right_Y","rightWrist_Y","middleTip_right_Y","root_X","ringMCP_left_Y","indexPIP_left_Y","thumbCMC_right_X","thumbCMC_left_Y","indexDIP_right_Y","neck_Y","ringTip_right_X","middlePIP_right_Y","indexTip_right_X","rightShoulder_Y","littleMCP_left_X","ringDIP_right_Y","thumbCMC_right_Y","indexMCP_left_X","indexDIP_left_Y","nose_Y","ringMCP_right_X","thumbIP_left_X","leftElbow_X","indexDIP_right_X","indexDIP_left_X","video_size_width","middleDIP_right_X","thumbMP_right_X","wrist_left_X","indexMCP_right_X","rightEar_X","leftEar_X","thumbIP_right_Y","rightEye_Y","leftShoulder_Y","ringPIP_right_X","leftWrist_X","middleTip_left_Y","littlePIP_right_X","indexMCP_right_Y","indexTip_left_Y","ringMCP_right_Y","middleMCP_left_X","thumbTip_left_Y","wrist_left_Y","labels","middleMCP_right_X","middleMCP_left_Y","rightWrist_X","littleDIP_right_Y","ringTip_right_Y","leftEar_Y","rightShoulder_X","littlePIP_right_Y","littleTip_right_X","middlePIP_left_Y","indexPIP_right_X","middlePIP_left_X","littleDIP_right_X","middleDIP_left_Y","leftWrist_Y","middleDIP_right_Y","video_fps","littleDIP_left_X","littleMCP_left_Y","ringDIP_left_X","leftEye_X","littleTip_left_Y","thumbMP_left_Y","indexMCP_left_Y","indexTip_right_Y","thumbIP_left_Y","ringTip_left_Y","wrist_right_X","thumbCMC_left_X","rightEar_Y","indexTip_left_X","neck_X","middleTip_left_X","ringDIP_left_Y","middlePIP_right_X","root_Y","rightElbow_X","thumbTip_right_X","littleTip_left_X","littlePIP_left_X","littlePIP_left_Y","leftShoulder_X","middleTip_right_X","thumbTip_right_Y","thumbIP_right_X","nose_X","rightElbow_Y","littleDIP_left_Y","ringPIP_right_Y","ringMCP_left_X"

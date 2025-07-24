@@ -27,7 +27,7 @@ def load_dataset(file_location: str):
 
     # TEMP
     labels = df["labels"].to_list()
-    # labels = [label + 1 for label in df["labels"].to_list()]
+    labels = [label + 1 for label in df["labels"].to_list()]
     data = []
 
     for row_index, row in df.iterrows():

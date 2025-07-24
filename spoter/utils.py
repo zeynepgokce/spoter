@@ -12,6 +12,8 @@ def train_epoch(model, dataloader, criterion, optimizer, device, scheduler=None)
         inputs, labels = data
         inputs = inputs.squeeze(0).to(device)
         labels = labels.to(device, dtype=torch.long)
+        #print("labels:", labels)
+
 
         optimizer.zero_grad()
         outputs = model(inputs).expand(1, -1, -1)
