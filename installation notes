@@ -1,0 +1,119 @@
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ conda create -n spoter python=3.9
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 25.5.1
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=25.5.1
+
+
+
+## Package Plan ##
+
+  environment location: /home/zeynep/anaconda3/envs/spoter
+
+  added / updated specs:
+    - python=3.9
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2025.2.25-h06a4308_0
+  expat              pkgs/main/linux-64::expat-2.7.1-h6a678d5_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.40-h12ee557_0
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_1
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+  libxcb             pkgs/main/linux-64::libxcb-1.17.0-h9b100fa_0
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0
+  openssl            pkgs/main/linux-64::openssl-3.0.17-h5eee18b_0
+  pip                pkgs/main/noarch::pip-25.1-pyhc872135_2
+  pthread-stubs      pkgs/main/linux-64::pthread-stubs-0.3-h0ce48e5_1
+  python             pkgs/main/linux-64::python-3.9.23-he99959a_0
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0
+  setuptools         pkgs/main/linux-64::setuptools-78.1.1-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.50.2-hb25bd0a_1
+  tk                 pkgs/main/linux-64::tk-8.6.14-h993c535_1
+  tzdata             pkgs/main/noarch::tzdata-2025b-h04d1e81_0
+  wheel              pkgs/main/linux-64::wheel-0.45.1-py39h06a4308_0
+  xorg-libx11        pkgs/main/linux-64::xorg-libx11-1.8.12-h9b100fa_1
+  xorg-libxau        pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0
+  xorg-libxdmcp      pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0
+  xorg-xorgproto     pkgs/main/linux-64::xorg-xorgproto-2024.1-h5eee18b_1
+  xz                 pkgs/main/linux-64::xz-5.6.4-h5eee18b_1
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate spoter
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ conda env list
+# conda environments:
+#
+base                     /home/zeynep/anaconda3
+asl_citizen              /home/zeynep/anaconda3/envs/asl_citizen
+gdal_compression_env     /home/zeynep/anaconda3/envs/gdal_compression_env
+kd                       /home/zeynep/anaconda3/envs/kd
+kinetics                 /home/zeynep/anaconda3/envs/kinetics
+open-mmlab               /home/zeynep/anaconda3/envs/open-mmlab
+openmmlab                /home/zeynep/anaconda3/envs/openmmlab
+ossim                    /home/zeynep/anaconda3/envs/ossim
+pyskl                    /home/zeynep/anaconda3/envs/pyskl
+spoter                   /home/zeynep/anaconda3/envs/spoter
+st-gcn                   /home/zeynep/anaconda3/envs/st-gcn
+videomae                 /home/zeynep/anaconda3/envs/videomae
+
+zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$
+zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ conda activate spoter
+(spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ python
+Python 3.9.23 (main, Jun  5 2025, 13:40:20)
+[GCC 11.2.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pip install numpy==1.26.4
+KeyboardInterrupt
+>>> quit()
+(spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ pip install numpy==1.26.4
+Collecting numpy==1.26.4
+  Downloading numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Downloading numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 42.7 MB/s eta 0:00:00
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.0.2
+    Uninstalling numpy-2.0.2:
+      Successfully uninstalled numpy-2.0.2
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+Successfully installed numpy-1.26.4
+(spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$ watch -n 1  nvidia-smi
+(spoter) zeynep@ubzeynepgokce:/media/zeynep/External/Zeynep/PHD/Repos/spoter$
